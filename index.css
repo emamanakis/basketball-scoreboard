@@ -1,0 +1,94 @@
+@font-face {
+    font-family: cursed-timer;
+    src: url(/cursedtimer.ttf);
+}
+
+body {
+    margin: 30% auto;
+    color: #ffffff;
+    background: #047857;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: auto;
+    height: 385px;
+    width: 575px;
+    background-color: #1B244A;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 25px;
+}
+
+.team-identifier {
+    margin: auto;
+}
+
+.home-points-counter, .guest-points-counter {
+    font-family: cursed-timer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 120px;
+    width: 155px;
+    background-color: #080001;
+    border-radius: 5px;
+    font-size: 90px;
+    margin: 30px auto;
+    color: #F94F6D;
+}
+
+.button-row {
+    display: flex;
+    height: 45px;
+    width: 155px;
+    justify-content: space-between;
+    font-family: cursed-timer;
+    margin: auto;
+}
+
+.score-button:hover {
+    background-color: rgb(236, 236, 39);
+}
+
+.score-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1B244A;
+    border:1px solid #9AABD8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 45px;
+    width: 45px;
+    color: #9AABD8;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.new-game {
+    font-family: cursed-timer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+}
+
+.new-game-btn:hover {
+    background-color: darkred;
+}
+
+.new-game-btn {
+    background: #1B244A;
+    color: #9AABD8;
+    border:1px solid #9AABD8 ;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px
+}
